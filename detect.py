@@ -5,7 +5,6 @@ import torch
 
 model = YOLO("models/PlayingCardsM.pt")
 
-# Use GPU if available
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"Using: {device}")
 
@@ -26,10 +25,9 @@ while True:
 
     frame_count += 1
 
-    # Only run YOLO every 3rd frame
+    # only run yolo on every 3rd frame, change this if using gpu 
     if frame_count % 3 == 0:
-        results = model.track(frame, persist=True, conf=0.75, verbose=False, 
-                              imgsz=320, device=device)
+        results = model.track(frame, persist=True, conf=0.75, verbose=False, imgsz=448, device=device) # mess around with confidence value, 
         boxes = results[0].boxes
         last_boxes = boxes.xyxy
         last_cls = boxes.cls
@@ -40,7 +38,7 @@ while True:
         if stable:
             last_stable = stable
 
-    # Draw using cached boxes from last YOLO run
+    # draw using cached boxes from last YOLO run
     annotated = frame.copy()
     for box, cls in zip(last_boxes, last_cls):
         x1, y1, x2, y2 = map(int, box)

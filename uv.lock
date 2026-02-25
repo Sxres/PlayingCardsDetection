@@ -825,6 +825,7 @@ dependencies = [
     { name = "torch" },
     { name = "torchaudio" },
     { name = "torchvision" },
+    { name = "treys" },
     { name = "ultralytics" },
 ]
 
@@ -835,6 +836,7 @@ requires-dist = [
     { name = "torch", specifier = ">=2.5.1", index = "https://download.pytorch.org/whl/cu121" },
     { name = "torchaudio", specifier = ">=2.5.1", index = "https://download.pytorch.org/whl/cu121" },
     { name = "torchvision", specifier = ">=0.20.1", index = "https://download.pytorch.org/whl/cu121" },
+    { name = "treys", specifier = ">=0.1.8" },
     { name = "ultralytics", specifier = ">=8.4.16" },
 ]
 
@@ -1147,6 +1149,15 @@ wheels = [
     { url = "https://download.pytorch.org/whl/cu121/torchvision-0.20.1%2Bcu121-cp311-cp311-win_amd64.whl", hash = "sha256:00143c941b30f2d5001b58f8caada826aaa4dce94b8ae4192730e5c34165fa8c" },
     { url = "https://download.pytorch.org/whl/cu121/torchvision-0.20.1%2Bcu121-cp312-cp312-linux_x86_64.whl", hash = "sha256:48cf3a716f70370ed5dcb656e7497415ef37860b07e67ea4b1ef8598efe28445" },
     { url = "https://download.pytorch.org/whl/cu121/torchvision-0.20.1%2Bcu121-cp312-cp312-win_amd64.whl", hash = "sha256:12b764936fc3fde29d7165adc7c721e491fa75c7a498c9fbaa08757b5fe59fe7" },
+]
+
+[[package]]
+name = "treys"
+version = "0.1.8"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/3b/a6/1712340dc1ac96d40afe162d43ce146c7781ba59cde5efc988aaee35ada4/treys-0.1.8.tar.gz", hash = "sha256:a486a42b899e91985b4da4fdac9a30e638275648977104487acb90a2dd7cd73b", size = 12073 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/46/df/e6b3b1cc98c3e00c5b146113f998dfe0de47358277648df235a6ae571143/treys-0.1.8-py3-none-any.whl", hash = "sha256:9ba3460ff2ed597510fb535af6280f115254b0b70699ea362f8f1ee067378063", size = 11897 },
 ]
 
 [[package]]

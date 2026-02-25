@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import cv2
 from collections import deque, Counter
 
-model = YOLO("models/PlayingCards.pt")
+model = YOLO("models/PlayingCardsM.pt")
 
 cap = cv2.VideoCapture(0)
 history = deque(maxlen=10)

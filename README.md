@@ -1,9 +1,12 @@
 # Playing Card Detector
 
-Real-time playing card detection using YOLOv8 and OpenCV. Detects card rank and suit, counts cards on screen, and displays live bounding boxes via webcam or video feed.
+Real-time playing card detection using YOLOv26 and OpenCV. Detects card rank and suit, counts cards on screen, and displays live bounding boxes via webcam or video feed.
+
+## Dataset 
+- Dataset used for training from [Kaggle](https://www.kaggle.com/datasets/andy8744/playing-cards-object-detection-dataset) 
 
 ## Demo
-<img width="597" height="812" alt="output" src="https://github.com/user-attachments/assets/aa051844-ad22-4c49-87ec-506ecbe18100" />
+<img width="597" height="812" alt="output" src="https://github.com/user-attachments/assets/aa051844-ad22-4c49-87ec-506ecbe18100" /> placeholder
 
 
 
@@ -37,21 +40,20 @@ python detect.py
 python detect.py --source myvideo.mp4
 ```
 
-## Model
-Pre-trained model from [link to original repo]. Fine-tuned on custom card data.
-
-Place the model file at `models/cards.pt`.
-
 ## Project Structure
 ```
-card-detector/
+PlayingCardsDetection/
 ├── detect.py
+├── CardDetector.ipynb
+├── YoloCardTraining.ipynb
+├── Runs/
 ├── models/
 │   └── cards.pt
-├── requirements.txt
+├── uv.lock
+├── pyproject.toml
 └── README.md
 ```
 
 ## Credits
 - YOLOv8 by [Ultralytics](https://github.com/ultralytics/ultralytics)
-- Base model from [original repo]
+- Big help from https://github.com/TeogopK/Playing-Cards-Object-Detection 

@@ -30,7 +30,7 @@ Real-time playing card detection using YOLOv8, OpenCV and treys. Detects card ra
 - Temporal smoothing across frames to reduce flickering
 - Real-time card counting
 
-**Poker Hand Evaluator (CardDetector.ipynb)**
+**Poker Hand Evaluator (PokerAnalyzer.ipynb)**
 - Place community cards in the top half of the frame, your hand in the bottom half
 - Automatic zone detection splits cards by position using a visual midline
 - Evaluates best 5-card poker hand (High Card → Royal Flush)
@@ -83,6 +83,7 @@ PlayingCardsDetection/
 ## Credits
 - YOLOv8 by [Ultralytics](https://github.com/ultralytics/ultralytics)
 - Big help from https://github.com/TeogopK/Playing-Cards-Object-Detection 
+
 
 
 

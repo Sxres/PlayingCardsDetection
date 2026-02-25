@@ -5,8 +5,13 @@ Real-time playing card detection using YOLOv26 and OpenCV. Detects card rank and
 ## Dataset 
 - Dataset used for training from [Kaggle](https://www.kaggle.com/datasets/andy8744/playing-cards-object-detection-dataset) 
 
-## Demo
-<img width="640" height="480" alt="Card Detector_screenshot_24 02 2026" src="https://github.com/user-attachments/assets/b56e48d6-c881-4113-bfa1-c6f4a528298b" />
+## Examples
+
+<p align="center">
+  <img src="Examples/Example1.png" width="45%" />
+  &nbsp;
+  <img src="Examples/Example2.png" width="45%" />
+</p>
 
 
 
@@ -58,4 +63,5 @@ PlayingCardsDetection/
 ## Credits
 - YOLOv8 by [Ultralytics](https://github.com/ultralytics/ultralytics)
 - Big help from https://github.com/TeogopK/Playing-Cards-Object-Detection 
+
 

@@ -11,3 +11,4 @@ wheels/
 
 CardDataset/
 *.onnx
+runs/

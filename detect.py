@@ -1,9 +1,8 @@
-# this needs to be updated or maybe webcam on laptop performs poorly
 from ultralytics import YOLO
 import cv2
 from collections import deque, Counter
 
-model = YOLO("models/PlayingCards.pt")
+model = YOLO("models/yolov8m_synthetic.pt") # this model is taken from https://github.com/TeogopK/Playing-Cards-Object-Detection/blob/main/final_models/yolov8m_synthetic.pt
 
 cap = cv2.VideoCapture(0)
 history = deque(maxlen=10)

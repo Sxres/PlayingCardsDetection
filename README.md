@@ -5,7 +5,7 @@ Real-time playing card detection using YOLOv26 and OpenCV. Detects card rank and
 ## Dataset 
 - Dataset used for training from [Kaggle](https://www.kaggle.com/datasets/andy8744/playing-cards-object-detection-dataset) 
 
-## Examples
+## Detect Examples
 
 <p align="center">
   <img src="Examples/Example1.png" width="45%" />
@@ -13,6 +13,13 @@ Real-time playing card detection using YOLOv26 and OpenCV. Detects card rank and
   <img src="Examples/Example2.png" width="45%" />
 </p>
 
+## Poker Notebook Example
+
+<p align="center">
+  <img src="Examples/Example1.png" width="45%" />
+  &nbsp;
+  <img src="Examples/Example2.png" width="45%" />
+</p>
 
 
 
@@ -26,7 +33,7 @@ Real-time playing card detection using YOLOv26 and OpenCV. Detects card rank and
 - Python 3.8+
 - Ultralytics YOLOv26
 - OpenCV
-
+- [treys](https://github.com/ihendley/treys)
 ## Installation
 ```bash
 git clone https://github.com/Sxres/PlayingCardsDetection
@@ -63,5 +70,6 @@ PlayingCardsDetection/
 ## Credits
 - YOLOv8 by [Ultralytics](https://github.com/ultralytics/ultralytics)
 - Big help from https://github.com/TeogopK/Playing-Cards-Object-Detection 
+
 
 

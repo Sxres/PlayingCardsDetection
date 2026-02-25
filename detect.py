@@ -1,4 +1,3 @@
-# this needs to be updated or maybe webcam on laptop performs poorly
 from ultralytics import YOLO
 import cv2
 from collections import deque, Counter

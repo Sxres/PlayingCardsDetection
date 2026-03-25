@@ -1,5 +1,5 @@
 # Playing Card Detector
-Real-time playing card detection using YOLOv8, OpenCV and treys. Detects card rank and suit, counts cards on screen, and displays live bounding boxes via webcam or video feed. Includes a poker hand evaluator that identifies your best hand and estimates win probability against a random opponent.
+Real-time playing card detection using YOLOv26, OpenCV and treys. Detects card rank and suit, counts cards on screen, and displays live bounding boxes via webcam or video feed. Includes a poker hand evaluator that identifies your best hand and estimates win probability against a random opponent.
 
 ## Dataset 
 - Dataset used for training from [Kaggle](https://www.kaggle.com/datasets/andy8744/playing-cards-object-detection-dataset) 
@@ -38,7 +38,7 @@ Real-time playing card detection using YOLOv8, OpenCV and treys. Detects card ra
   
 ## Requirements
 - Python 3.8+
-- Ultralytics YOLOv8
+- Ultralytics YOLOv26
 - OpenCV
 - NumPy
 - Matplotlib
